@@ -1,0 +1,11 @@
+package academy.javaoca.danieloliveira.poo.test;
+
+import academy.javaoca.danieloliveira.poo.dominio.Calculadora;
+
+public class Calculadora02 {
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+
+        calculadora.multiplicaDoisNumeros(11,2);
+    }
+}

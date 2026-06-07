@@ -1,0 +1,41 @@
+package academy.javaoca.danieloliveira.poo.dominio16;
+
+public class Funcionario {
+    private String nome;
+    protected double salario;
+    protected String departamento;
+
+    public Funcionario(String nome, double salario) {
+        this.nome = nome;
+        this.salario = salario;
+    }
+    public Funcionario(String nome, double salario, String departamento) {
+        this.nome = nome;
+        this.salario = salario;
+        this.departamento = departamento;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+}
