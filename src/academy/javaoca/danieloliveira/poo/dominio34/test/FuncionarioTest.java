@@ -28,7 +28,5 @@ public class FuncionarioTest {
         FolhaDePagamento.totalPagoFuncionario(funcionarios);
         FolhaDePagamento.totalPagemntosFuncionario(funcionarios);
         FolhaDePagamento.contarPorFuncaoFuncionarios(funcionarios);
-
-
     }
 }
