@@ -9,8 +9,6 @@ public class FileTest01 {
         File f = new File("file.txt");
         try {
             //boolean isDeleted = f.delete();
-
-
             boolean isCreated = f.createNewFile();
             System.out.println("Created " + isCreated);
             System.out.println("path" + f.getPath()) ;
