@@ -21,7 +21,7 @@ public class PatternMatcherTest05 {
         // | o(v|c)o ovo | oco
         // $
         //String regex = "[a-zA-C]";
-        // . 1.3 = 123,133,1@3, 1A3
+        // . 1.3 = 123,133,1@3, 1A3.
         String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
         //String texto = "abaaba";
         String texto = "naruto@hotmail.com, 123jotaro@gmail.com, #@!eren@email.com.br, teste@gmail.com.br, sakura@mail";
