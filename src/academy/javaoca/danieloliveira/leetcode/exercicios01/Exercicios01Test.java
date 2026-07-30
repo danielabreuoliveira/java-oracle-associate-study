@@ -37,7 +37,7 @@ public class Exercicios01Test {
 
         boolean resultado = solucao5.parIgual(numeros);
         System.out.println(resultado);
-*/
+
 
         int[] numeros = {1,2,2};
 
@@ -45,6 +45,13 @@ public class Exercicios01Test {
         int resultado = solucao6.paresRepetidos(numeros);
 
         System.out.println(resultado);
+*/
 
+        int[] numeros = {4,9,2,15,8};
+
+        Solucao7 solucao7 = new Solucao7();
+        int resultado = solucao7.maiorNumero(numeros);
+
+        System.out.println(resultado);
     }
 }
