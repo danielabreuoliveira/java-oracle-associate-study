@@ -55,12 +55,18 @@ public class Exercicios01Test {
         System.out.println(resultado);
 
 
-         */
-
         int[] numeros = {8,3,15,1,9};
 
         Solucao8 solucao8 = new Solucao8();
         int resultado = solucao8.menorNumero(numeros);
+        System.out.println(resultado);
+    */
+
+        int[] numeros = {2,7,8,5,10};
+
+        Solucao9 solucao9 = new Solucao9();
+        int resultado = solucao9.contagemPares(numeros);
+
         System.out.println(resultado);
     }
 }
