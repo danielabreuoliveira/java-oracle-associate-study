@@ -10,12 +10,23 @@ public class Exercicios02Test {
         String resultado = exercicios02.mergeAlternately(word1, word2);
         System.out.println(resultado);
 
-     */
+
         String palavra1 = ("joao");
         String palavra2 = ("fonseca");
 
         Solucao solucao = new Solucao();
         String resultado = solucao.mergeDeStrings(palavra1, palavra2);
+
+        System.out.println(resultado);
+        
+        
+     */
+        
+        String palavra1 = ("abc");
+        String palavra2 = ("123");
+        
+        Solucao2 solucao2 = new Solucao2();
+        String resultado = solucao2.mergeComStrings(palavra1, palavra2);
 
         System.out.println(resultado);
     }
