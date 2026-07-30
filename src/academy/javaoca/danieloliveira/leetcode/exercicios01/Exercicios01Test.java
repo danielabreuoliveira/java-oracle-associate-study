@@ -9,22 +9,26 @@ public class Exercicios01Test {
         int[] nums = {2,7,11,15};
         int[] numeros = {5,8,2,10,3};
         int[] numeros2 = {5,2,9,1,7};
+        int[] numeros3 = {8,3,10,2,7};
         int target = 9;
         int target2 = 13;
 
         Solucao solucao = new Solucao();
         Solucao2 solucao2 = new Solucao2();
         Solucao3 solucao3 = new Solucao3();
+        Solucao4 solucao4 = new Solucao4();
 
         int[] resultado = solucao.twoSum(nums, target);
         int[] resultado2 = solucao2.somaDeValor(numeros,target2);
         int[] resultado3 = solucao2.somaIgualPar(numeros,target2);
         int[] resultado4 = solucao3.maiorSoma(numeros2);
+        int[] resultado5 = solucao4.menorSoma(numeros3);
 
         System.out.println(Arrays.toString(resultado));
         System.out.println(Arrays.toString(resultado2));
         System.out.println(Arrays.toString(resultado3));
-        System.out.println(Arrays.toString(resultado4));
+        System.out.println(Arrays.toString(resultado3));
+        System.out.println(Arrays.toString(resultado5));
 
 
     }
