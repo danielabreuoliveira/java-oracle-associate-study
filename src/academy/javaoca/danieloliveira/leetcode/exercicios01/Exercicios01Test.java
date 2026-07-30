@@ -29,13 +29,21 @@ public class Exercicios01Test {
         System.out.println(Arrays.toString(resultado3));
         System.out.println(Arrays.toString(resultado3));
         System.out.println(Arrays.toString(resultado5));
-*/
+
 
         int[] numeros = {1,3,5,7,3};
 
         Solucao5 solucao5 = new Solucao5();
 
         boolean resultado = solucao5.parIgual(numeros);
+        System.out.println(resultado);
+*/
+
+        int[] numeros = {1,2,2};
+
+        Solucao6 solucao6 = new Solucao6();
+        int resultado = solucao6.paresRepetidos(numeros);
+
         System.out.println(resultado);
 
     }
