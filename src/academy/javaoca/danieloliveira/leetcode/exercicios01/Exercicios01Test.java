@@ -45,13 +45,22 @@ public class Exercicios01Test {
         int resultado = solucao6.paresRepetidos(numeros);
 
         System.out.println(resultado);
-*/
+
 
         int[] numeros = {4,9,2,15,8};
 
         Solucao7 solucao7 = new Solucao7();
         int resultado = solucao7.maiorNumero(numeros);
 
+        System.out.println(resultado);
+
+
+         */
+
+        int[] numeros = {8,3,15,1,9};
+
+        Solucao8 solucao8 = new Solucao8();
+        int resultado = solucao8.menorNumero(numeros);
         System.out.println(resultado);
     }
 }
