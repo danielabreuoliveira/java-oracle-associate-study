@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Exercicios01Test {
     public static void main() {
-
+        /*
         int[] nums = {2,7,11,15};
         int[] numeros = {5,8,2,10,3};
         int[] numeros2 = {5,2,9,1,7};
@@ -29,7 +29,14 @@ public class Exercicios01Test {
         System.out.println(Arrays.toString(resultado3));
         System.out.println(Arrays.toString(resultado3));
         System.out.println(Arrays.toString(resultado5));
+*/
 
+        int[] numeros = {1,3,5,7,3};
+
+        Solucao5 solucao5 = new Solucao5();
+
+        boolean resultado = solucao5.parIgual(numeros);
+        System.out.println(resultado);
 
     }
 }
