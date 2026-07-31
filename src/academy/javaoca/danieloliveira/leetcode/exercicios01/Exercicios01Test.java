@@ -60,7 +60,7 @@ public class Exercicios01Test {
         Solucao8 solucao8 = new Solucao8();
         int resultado = solucao8.menorNumero(numeros);
         System.out.println(resultado);
-    */
+
 
         int[] numeros = {2,7,8,5,10};
 
@@ -68,5 +68,15 @@ public class Exercicios01Test {
         int resultado = solucao9.contagemPares(numeros);
 
         System.out.println(resultado);
+
+
+         */
+
+        int[] numeros = {1,2,3,4,5};
+        int alvo = 9;
+
+        Solucao10 solucao = new Solucao10();
+        int[] resultado = solucao.somaValores(numeros, alvo);
+        System.out.println(Arrays.toString(resultado));
     }
 }

@@ -1,5 +1,7 @@
 package academy.javaoca.danieloliveira.fundamentos.vetores.estruturaDados;
 
+import java.util.Arrays;
+
 public class Vetor {
 
     private String[] elementos;
@@ -18,13 +20,33 @@ public class Vetor {
                 }
         }
     }*/
-    public void adiciona(String elemento) throws Exception {
+    public void adiciona(String elemento) {
         if(this.tamanho<this.elementos.length){
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
-        } else{
-            throw new Exception("Vetor ja esta cheio, não é possivel adicionar elementos");
         }
+        }
+
+
+    public int tamanho(){
+        return  this.tamanho;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("[");
+
+        for (int i = 0; i <this.tamanho-1; i++) {
+            stringBuilder.append(this.elementos[i]);
+            stringBuilder.append(",");
+        }
+        if (this.tamanho>0){
+            stringBuilder.append(this.elementos[this.tamanho-1]);
+        }
+
+        stringBuilder.append("]");
+
+        return stringBuilder.toString();
+    }
 }
