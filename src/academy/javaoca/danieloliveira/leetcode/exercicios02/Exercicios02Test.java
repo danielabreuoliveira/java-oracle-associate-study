@@ -19,8 +19,7 @@ public class Exercicios02Test {
 
         System.out.println(resultado);
         
-        
-     */
+
         
         String palavra1 = ("abc");
         String palavra2 = ("123");
@@ -29,6 +28,16 @@ public class Exercicios02Test {
         String resultado = solucao2.mergeComStrings(palavra1, palavra2);
 
         System.out.println(resultado);
+
+
+     */
+
+        String palavra1 = ("daniel");
+        String palavra2 = ("Oliveira");
+
+        Exercicios03 resultado = new Exercicios03();
+        String s = resultado.mergeDePalavras(palavra1, palavra2);
+        System.out.println(s);
     }
 
 }
