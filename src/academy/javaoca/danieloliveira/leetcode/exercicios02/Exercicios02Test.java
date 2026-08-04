@@ -38,6 +38,10 @@ public class Exercicios02Test {
         Exercicios03 resultado = new Exercicios03();
         String s = resultado.mergeDePalavras(palavra1, palavra2);
         System.out.println(s);
+
+        Exercicios03 resultado = new Exercicios03();
+        String s = resultado.mergeDePalavras(palavra1, palavra2);
+        System.out.println(s);
     }
 
 }
