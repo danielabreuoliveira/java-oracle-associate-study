@@ -27,6 +27,9 @@ public class Vetor {
         }
         }
 
+        public String busca(int posicao){
+            return busca(posicao);
+        };
 
     public int tamanho(){
         return  this.tamanho;
