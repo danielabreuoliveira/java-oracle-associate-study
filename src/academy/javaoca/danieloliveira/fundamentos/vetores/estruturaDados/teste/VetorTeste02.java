@@ -12,5 +12,6 @@ public class VetorTeste02 {
 
         System.out.println(vetor.tamanho());
         System.out.println(vetor.toString());
+        System.out.println(vetor.busca(4));
     }
 }
