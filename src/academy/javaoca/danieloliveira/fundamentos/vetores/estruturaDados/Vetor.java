@@ -10,7 +10,10 @@ public class Vetor {
     public Vetor(int capacidade) {
         this.elementos = new String[capacidade];
         this.tamanho = 0;
-    };
+    }
+
+    ;
+
     /*
     public void adiciona(String elemento){
         for (int i = 0; i < this.elementos.length; i++) {
@@ -21,21 +24,32 @@ public class Vetor {
         }
     }*/
     public void adiciona(String elemento) {
-        if(this.tamanho<this.elementos.length){
+        if (this.tamanho < this.elementos.length) {
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
         }
+    }
+
+    public String busca(int posicao) {
+        if (!(posicao >= 0 && posicao < tamanho)) {
+            throw new IllegalArgumentException("posicao invalida");
         }
-
-        public String busca(int posicao){
-            if(!(posicao>= 0 && posicao < tamanho)){
-                throw new IllegalArgumentException("posicao invalida");
-            }
         return this.elementos[posicao];
-        };
+    }
 
-    public int tamanho(){
-        return  this.tamanho;
+    ;
+
+    public int busca(String elemento){
+        for (int i = 0; i < this.tamanho; i++) {
+            if(this.elementos[i].equals(elemento)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public int tamanho() {
+        return this.tamanho;
     }
 
     @Override
@@ -43,12 +57,12 @@ public class Vetor {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("[");
 
-        for (int i = 0; i <this.tamanho-1; i++) {
+        for (int i = 0; i < this.tamanho - 1; i++) {
             stringBuilder.append(this.elementos[i]);
             stringBuilder.append(",");
         }
-        if (this.tamanho>0){
-            stringBuilder.append(this.elementos[this.tamanho-1]);
+        if (this.tamanho > 0) {
+            stringBuilder.append(this.elementos[this.tamanho - 1]);
         }
 
         stringBuilder.append("]");
