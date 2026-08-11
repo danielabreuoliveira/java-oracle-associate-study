@@ -1,8 +1,7 @@
 package academy.javaoca.danieloliveira.fundamentos.vetores.estruturaDados.teste;
-
 import academy.javaoca.danieloliveira.fundamentos.vetores.estruturaDados.Vetor;
 
-public class VetorTeste02 {
+public class VetorTeste03 {
     public static void main(String[] args) {
         Vetor vetor = new Vetor(10);
 

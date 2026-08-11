@@ -48,6 +48,7 @@ public class Vetor {
         return -1;
     }
 
+
     public int tamanho() {
         return this.tamanho;
     }
