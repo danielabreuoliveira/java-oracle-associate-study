@@ -1,5 +1,6 @@
 package academy.javaoca.danieloliveira.YColecoes.test;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayListTeste {
@@ -43,6 +44,33 @@ public class ArrayListTeste {
             System.out.println("Vasco nao esta na lista");
         }
 
+        times.remove("Remo");
+
+        System.out.println("\nDepois de remover o Remo:");
+        System.out.println(times);
+
+
+        // 5. Adicionar Goiás
+        times.add("Goiás");
+
+        System.out.println("\nDepois de adicionar Goiás:");
+        System.out.println(times);
+
+        System.out.println("\nTime da posição 5: " + times.get(5));
+
+        Collections.sort(times);
+
+        System.out.println("\n=== TIMES ORDENADOS ===");
+
+        for (String time : times) {
+            System.out.println(time);
+        }
+
+        System.out.println("\n=== LISTA FINAL ===");
+
+        for (int i = 0; i < times.size(); i++) {
+            System.out.println(i + " - " + times.get(i));
+        }
 
     }
 }
