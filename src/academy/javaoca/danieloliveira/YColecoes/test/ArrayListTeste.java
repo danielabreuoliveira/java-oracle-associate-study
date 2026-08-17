@@ -29,6 +29,12 @@ public class ArrayListTeste {
         times.add("Chapecoense");
         times.add("Remo");
 
-        System.out.println(times);
+        System.out.println("\n Times serie A");
+
+        for (String time : times) {
+            System.out.println(time);
+        }
+
+        System.out.println("\n quantidade de times: " + times.size());
     }
 }
