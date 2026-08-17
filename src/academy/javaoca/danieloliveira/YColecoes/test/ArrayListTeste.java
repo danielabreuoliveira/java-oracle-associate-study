@@ -29,12 +29,20 @@ public class ArrayListTeste {
         times.add("Chapecoense");
         times.add("Remo");
 
-        System.out.println("\n Times serie A");
+        System.out.println("\n ----------  Times serie A -------------");
 
         for (String time : times) {
             System.out.println(time);
         }
 
-        System.out.println("\n quantidade de times: " + times.size());
+        System.out.println("\nQuantidade de times: " + times.size());
+
+        if (times.contains("Vasco")){
+            System.out.println("Vasco esta na lista");
+        } else{
+            System.out.println("Vasco nao esta na lista");
+        }
+
+
     }
 }
