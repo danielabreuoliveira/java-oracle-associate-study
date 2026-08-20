@@ -12,5 +12,12 @@ public class Teste10 {
         numeros.add(11);
 
         System.out.println("Lista: " + numeros);
+
+        int somaNumeros = 0;
+        for (Integer numero : numeros) {
+            somaNumeros += numero;
+        }
+
+        System.out.println(somaNumeros);
     }
 }
