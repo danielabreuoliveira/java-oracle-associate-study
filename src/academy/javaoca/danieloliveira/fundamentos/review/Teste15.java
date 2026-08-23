@@ -8,15 +8,13 @@ public class Teste15 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o valor da nota 1: ");
-        int nota1 = scanner.nextInt();
+        double nota1 = scanner.nextDouble();
         System.out.println("Digite o valor da nota 2: ");
-        int nota2 = scanner.nextInt();
+        double nota2 = scanner.nextDouble();
         System.out.println("Digite o valor da nota 3: ");
-        int nota3 = scanner.nextInt();
+        double nota3 = scanner.nextDouble();
 
         double media = (nota1+nota2+nota3)/3;
-        String mediaString = String.valueOf(media);
-
-        System.out.println("Valor da media: " + (String.format(mediaString)));
+        System.out.println("Valor da media: " + String.format("%.2f", media));
     }
 }
