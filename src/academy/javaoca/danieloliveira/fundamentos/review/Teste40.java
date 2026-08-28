@@ -6,12 +6,19 @@ public class Teste40 {
 
         int procurado = 30;
 
+        boolean encontrado = true;
+
         for (int i = 0; i < numeros.length ; i++) {
-            if(numeros[i] == procurado){
-                procurado = numeros[i];
-                System.out.println("Valor encontrado: " + procurado);
-                System.out.println("Indice: " + i);
-            }
+
+               if(numeros[i] == procurado){
+                   encontrado = true;
+                   System.out.println("Indice: " + i);
+               }
+           }
+        if(encontrado){
+            System.out.println("valor encontrado: " + procurado);
+        }else {
+            System.out.println("valor nao encontrado");
         }
     }
 }
