@@ -6,7 +6,7 @@ public class Teste45 {
 
         System.out.println("Ordem normal");
         for (int i = 0; i < numeros.length; i++) {
-            System.out.print(numeros[i]+",");
+            System.out.print(numeros[i]+" ");
         }
         System.out.println();
         System.out.println();
@@ -24,7 +24,7 @@ public class Teste45 {
 
         System.out.println("Ordem inversa");
         for (int i = 0; i < numeros.length; i++) {
-            System.out.print(numeros[i]+",");
+            System.out.print(numeros[i]+" ");
         }
     }
 }
