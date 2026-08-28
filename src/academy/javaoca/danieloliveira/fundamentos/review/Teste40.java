@@ -6,10 +6,9 @@ public class Teste40 {
 
         int procurado = 30;
 
-        boolean encontrado = true;
+        boolean encontrado = false  ;
 
         for (int i = 0; i < numeros.length ; i++) {
-
                if(numeros[i] == procurado){
                    encontrado = true;
                    System.out.println("Indice: " + i);
