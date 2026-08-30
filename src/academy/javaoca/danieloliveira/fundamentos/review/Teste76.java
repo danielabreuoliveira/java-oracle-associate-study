@@ -1,26 +1,25 @@
 package academy.javaoca.danieloliveira.fundamentos.review;
 
-public class Teste50 {
+public class Teste76 {
     public static void main(String[] args) {
+        int[] numeros = {1,3,5,7,8,3,22,11};
 
-        int[] numeros = {1,23,17,21,11,13};
-
-        System.out.println("Lista normal");
-        for (int i = 0; i < numeros.length ; i++) {
+        System.out.print("lista normal: ");
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
         }
+        System.out.println();
         System.out.println();
         for (int j = 0; j < numeros.length-1; j++) {
             for (int i = 0; i < numeros.length-1; i++) {
                 if(numeros[i]>numeros[i+1]){
-                    int auxiliar = numeros[i];
+                    int intervalo = numeros[i];
                     numeros[i] = numeros[i+1];
-                    numeros[i+1] = auxiliar;
+                    numeros[i+1] = intervalo;
                 }
             }
         }
-
-        System.out.println("Lista ordenada");
+        System.out.print("lista ordenada: ");
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
         }
