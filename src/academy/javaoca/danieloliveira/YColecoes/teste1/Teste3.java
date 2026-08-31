@@ -20,6 +20,20 @@ public class Teste3 {
 
         System.out.println(numerosSemDuplicados);
 
+        List<String> times = new ArrayList<>();
+
+        times.add("Vasco");
+        times.add("Vasco");
+        times.add("Vasco");
+        times.add("Vasco");
+        times.add("Vasco");
+        times.add("Vasco");
+        times.add("Flamengo");
+
+        HashSet<String> timesSemDuplicados = new HashSet<>(times);
+
+        System.out.println(timesSemDuplicados);
+
 
     }
 }
