@@ -6,13 +6,17 @@ public class Teste97 {
 
         int procurado = 3;
 
-        boolean encontrado = false;
+        boolean encontrado = true;
 
         for (int i = 0; i < numeros.length ; i++) {
             if(procurado==numeros[i]){
-                encontrado = true;
-                System.out.println("Numero: " + procurado + " Indice: " + i);
+                System.out.println(" Indice: " + i);
             }
+        }
+        if(encontrado){
+            System.out.println("Numero encontrado: " + procurado);
+        }else{
+            System.out.println("numero nao encontrado: ");
         }
     }
 }
