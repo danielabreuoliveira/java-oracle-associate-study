@@ -16,7 +16,9 @@ public class Teste98 {
             numeros[inicio] = numeros[fim];
             numeros[fim] = intervalo;
 
-        }while (inicio>fim);
+            inicio++;
+            fim--;
+        }while (inicio<fim);
 
         System.out.println();
         for (int i = 0; i < numeros.length; i++) {
