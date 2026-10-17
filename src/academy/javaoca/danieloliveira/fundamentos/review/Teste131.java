@@ -5,6 +5,7 @@ public class Teste131 {
 
         String nome = "ovo";
 
+
         int inicio = 0;
         int fim = nome.length()-1;
 
